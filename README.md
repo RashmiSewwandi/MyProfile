@@ -1,3 +1,5 @@
-#This is my Profile
-###Institute of java and software engineering
-####![Image of Yaktocat](assets/images/education.png)
+<h1>This is my Profile</h1>
+
+<h2>Institute of java and software engineering</h2>
+
+![Image of Yaktocat](assets/images/education.png)
