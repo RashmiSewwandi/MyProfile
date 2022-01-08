@@ -24,3 +24,15 @@
 <h3 align="center">Contact</h3>
 ![Home Section Img](assets/image/s5.PNG)
 
+
+
+
+
+
+
+
+
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer"/>
+</p>
