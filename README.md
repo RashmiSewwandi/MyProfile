@@ -14,13 +14,13 @@
 <h3 align="center">Home Section</h3>
 ![Home Section Img](assets/image/s1.PNG)
 <h3 align="center">About Me</h3>
-![Home Section Img](assets/image/ss2.JPG)
+![Home Section Img](assets/image/s2.PNG)
 <h3 align="center">Educations</h3>
-![Home Section Img](assets/image/ss3.JPG)
-<h3 align="center">Skills</h3>
-![Home Section Img](assets/image/ss4.JPG)
+![Home Section Img](assets/image/s6.PNG)
+<h3 align="center">Skills & Experience</h3>
+![Home Section Img](assets/image/s3.PNG)
 <h3 align="center">Projects</h3>
-![Home Section Img](assets/image/ss5.JPG)
+![Home Section Img](assets/image/s4.PNG)
 <h3 align="center">Contact</h3>
-![Home Section Img](assets/image/ss6.JPG)
+![Home Section Img](assets/image/s5.PNG)
 
