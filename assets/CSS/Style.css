@@ -4,7 +4,7 @@
 #home{
    /* height: 50vh;*/
    /* width: 864px;*/
-   /* height: 90vh;*/
+    height: 90vh;
 }
 body > header {
     height: 100px;
@@ -68,8 +68,6 @@ header > nav > ul > li:hover {
     height: 20px;
     cursor: pointer;
     justify-content: center;
-
-
 
 }
 
