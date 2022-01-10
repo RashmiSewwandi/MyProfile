@@ -1,0 +1,125 @@
+*{
+    background-color: black;
+}
+#home{
+   /* height: 50vh;*/
+   /* width: 864px;*/
+   /* height: 90vh;*/
+}
+body > header {
+    height: 100px;
+    box-shadow: 5px 6px 10px 1px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: right;
+    right: 85px;
+}
+header > nav {
+    font-size: 30px;
+    font-weight: 70;
+    color: white;
+}
+
+header > nav > ul > li {
+    display: inline;
+    margin-left: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header > nav > ul > li:hover {
+    color: deepskyblue;
+}
+
+#first{
+    color: white;
+    position: relative;
+    margin: auto;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 50px;
+    margin-left: 950px;
+    bottom: 600px;
+}
+#second{
+    color: white;
+    position: relative;
+    margin: auto;
+    font-weight: normal;
+    font-size: 62px;
+    line-height: 90px;
+    margin-left: 850px;
+    bottom: 630px;
+    font-family: ' Qwigley';
+
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    line-height: 50px;
+    margin-left: 1200px;
+    padding-left: 50px;
+    bottom: 350px;
+    width: 120px;
+    height: 20px;
+    cursor: pointer;
+    justify-content: center;
+
+
+
+}
+
+#home>h1{
+    position: absolute;
+    left: 40.57%;
+    right: 45.66%;
+    top: 60.56%;
+    bottom: 50.44%;
+    border: 3px solid #E5ECEE;
+    margin-left: 30px;
+
+}
+#home>h2{
+    position: absolute;
+    left: 80.76%;
+    right: 1.66%;
+    margin-right: 100px;
+    top: 60.3%;
+    bottom: 57.7%;
+    border: 3px solid #DCE6E8;
+}
+
+
+#about{
+
+}
+#1>p>h1{
+    color: white;
+}
+p>b{
+    position: absolute;
+    width: 142px;
+    height: 82px;
+    margin-left: 820px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 70px;
+
+    color: #1E40F2;
+
+}
+#about>p{
+    color: white;
+    bottom: 40px;
+}
+#about>img{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-left: 1200px;
+}

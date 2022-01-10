@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <title> My Profile </title>
@@ -7,13 +7,17 @@
     <meta charset="UTF-8">
     <meta content="width=device-width initial-scale=1" name="viewport">
     <meta content="white" name="theme-color">
+    <link href="assets/CSS/normalize.css" rel="stylesheet">
+    <link href="assets/CSS/fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="assets/CSS/Style.css">
 
-    <style>
-     /* body{
-          background-color: black;
-      }*/
 
-     /* body>header>section>p{
+
+      <!--body>header>section>p{
           color: white;
           position: absolute;
           left: 51.27%;
@@ -22,24 +26,21 @@
           bottom: 53.57%;
 
 
-          font-family: Qwigley;
+          font-family: 'Lobster', cursive;
           font-style: normal;
           font-weight: normal;
           font-size: 72px;
           line-height: 90px;
-      }*/
-      /*body>header>section>h4{
+      }
+      body>header>section>h4{
+          position: relative;
           color: white;
-          position: absolute;
-          left: 58.19%;
-          right: 3.75%;
-          top: 20.12%;
-
+          font-family: 'Lobster', cursive;
           font-weight: bold;
           font-size: 25px;
           line-height: 28px;
-      }*/
-      /*body>header>nav{
+      }
+      body>header>nav{
           letter-spacing: 2px;
           position: relative;
           right: 36.53%;
@@ -53,7 +54,8 @@
           padding: 10px;
 
 
-      }*/
+
+      }
        /*fjjfiojfioj*/
      /* body>header>section>section:nth-child(5)>img{
           position: absolute;
@@ -64,66 +66,87 @@
           background-blend-mode: lighten;
       }*/
 
-     /* body>header>section>section {
+      body>header>section>section {
          letter-spacing: 10px;
           position: absolute;
           left: 63%;
           bottom: 55%;
+      }-->
 
-      }*/
 
-    </style>
+    </style>-->
 
 </head>
 
 <body>
 <header>
     <nav>
-        <a href="#sd1">HOME   |   </font> </a>
+        <!--<a href="#sd1">HOME   |   </font> </a>
         <a href="#sd2">ABOUT   |</font></a>
         <a href="#sd3">EDUCATION    |</font></a>
         <a href="#sd4">SKILLS  |</font></a>
         <a href="#sd5">PROJECTS  |</font></a>
-        <a href="#sd6">CONTACT</font></a>
-
+        <a href="#sd6">CONTACT</font></a>-->
+        <ul>
+            <li><b>HOME</b></li>
+            <li><b>ABOUT</b></li>
+            <li><b>EDUCATION</b></li>
+            <li><b>SKILLS</b></li>
+            <li><b>PROJECT</b></li>
+            <li><b>CONTACT</b></li>
+        </ul>
 
     </nav>
-    <section>
-        <img src="assets/images/myphoto.jpg" alt="" width="450px" height="380px">
-
-        <p> Rashmi Sewwandi </p>
-        <h4>Software Developer & Web Designer</h4><br>
-
-        <section>
-        <img src="assets/images/tuwitter.JPG"alt=""width="35">
-        <img src="assets/images/inster.png"alt="" width="35">
-        <img src="assets/images/link.png"alt="" width="35">
-        <img src="assets/images/fb.JPG"alt="" width="34">
-        <img src="assets/images/github.png"alt="" width="35">
-        </section>
-
-    </section>
-    <hr>
 </header>
 
 <main>
-    <section>
-        <p align="center"><b><font size="33"><u><dfn id="sd2">About</dfn></u></font></b></p>
-        <p align="left"><h1>I'm</h1></p>
-        <p ><h3> W.A Rashmi Sewwandi Perera,<br>Creative Software Developer and Web Designer  from sri lanka.<br>I’m an undergraduate student with a high aspiration and focus on computer science.<br>
+    <section id="home">
+    <div>
+        <img src="assets/images/myphoto.jpg" alt="" width="700px" height="700px">
+    </div>
+
+        <div id ="first">
+        <p> Rashmi Sewwandi </p>
+        </div>
+        <div id ="second">
+        <p>Software Developer & Web Designer</p><br>
+        </div>
+
+        <div id="links">
+            <a href=""><img src="assets/images/tuwitter.JPG" alt="twitter"width="45" ></a>
+            <a href="https://www.instagram.com/"><img src="assets/images/inster.png" alt="instergram"width="45"></a>
+            <a href="https://www.linkedin.com/in/rashmi-sewwandi-743420225/"><img src="assets/images/link.png" alt="linkdin"width="45"></a>
+            <a href="https://www.facebook.com/"><img src="assets/images/fb.JPG" alt="facebook"width="45"></a>
+            <a href="https://github.com/RashmiSewwandi"><img src="assets/images/github.png" alt="github"width="45"></a>
+        </div>
+
+        <h1></h1>
+        <h2></h2>
+    </section>
+
+
+
+    <section id="about">
+        <p><b>About</b></p>
+        <div id="1">
+        <p><h1>I'm</h1></p>
+        </div>
+        <p><h3> W.A Rashmi Sewwandi Perera,<br>Creative Software Developer and Web Designer  from sri lanka.<br>I’m an undergraduate student with a high aspiration and focus on computer science.<br>
         I find it a great challenge to reach my goals and work with a wide range of software engineers in this industry.<br>I am just another person who will accept those challenges and move forward.<br><br>
         Name:      Rashmi Sewwandi Perera<br>
         Address:  Thalawathugoda , Colombo<br>
         E - Mail : <a href="mailto:rashmiswa09@gmail.com">rashmiswa09@gmail.com</a><br>
         Tel : <a href="tel:+94768622299">+94768622299</a></h3></p>
-
         <img  src="assets/images/my.jpg"alt="" width="360">
         <p><a href="assets/images/cv.pdf" download="cv.pdf"> Download CV </a></p>
+        </div>
     </section>
-    <hr>
+
 
     <section>
+<!--
         <p align="center"><b><font size="33"><u><dfn id="sd3">Educations</dfn></u></font></b></p><br>
+-->
         <pre><h3>            2015-2016
             Ananda Balika Vidyalaya , Kotte
             Completed GCE (Ordinary Level)
@@ -142,10 +165,12 @@
             Undergraduated</h3></pre>
 
     </section>
-    <hr>
+
 
     <section>
+<!--
         <p align="center"><b><font size="33"><u><dfn id="sd4">Skills</dfn></u></font></b></p><br>
+-->
         <img src="assets/logo/java.png" width="135px" height="129px">
         <img src="assets/logo/mysql.png" width="135px" height="129px">
         <img src="assets/logo/html.png" width="135px" height="129px">
@@ -162,10 +187,12 @@
         <h3><h1>20+</h1>Completed Assignments</h3>
 
     </section>
-    <hr>
+
 
     <section>
+<!--
         <p align="center"><b><font size="33"><u><dfn id="sd5">Projects</dfn></u></font></b></p><br>
+-->
         <img src="assets/projects/Capturezd.JPG" width="300px" height="220px">
         <img src="assets/projects/park.JPG">
         <img src="assets/projects/res.JPG">
@@ -177,10 +204,12 @@
         <h3> Vehicle service System MVC Architecture.</h3>
 
     </section>
-    <hr>
+
 
     <section>
+<!--
         <p align="center"><b><font size="33"><u><dfn id="sd6">Contact</dfn></u></font></b></p>
+-->
         <img src="assets/icon/user.png" width="35"height="35"><h3>W.A.Rashmi Sewwandi Perera</h3>
         <img src="assets/icon/phone.JPG" width="35"height="35"><h3> <a href="tel:+94768622299">+94768622299</a></h3>
         <img src="assets/icon/location.png" width="35"height="35"><h3>Thalawathugoda , Sri Lanka </h3>
