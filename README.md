@@ -24,6 +24,13 @@
 <h3 align="center">Contact</h3>
 ![Home Section Img](assets/image/s5.PNG)
 
+## :link: **Links**
+- Website : [rashmisewwandi](https://rashmisewwandi.000webhostapp.com)
+- GitHub-Pages : [RashmiSewwandi.github.io](https://github.com/RashmiSewwandi/RashmiSewwandi)
+- Site Map : [Click Here](https://www.gloomaps.com/VMb9EpDD9n )
+- Wireframe : [Click Here](https://wireframe.cc/EyO2rt)
+- Mockup : [Click Here](https://www.figma.com/file/z9JVhV3bFu3XkEBirozofA/Rashmi?node-id=0%3A1)
+
 
 
 
