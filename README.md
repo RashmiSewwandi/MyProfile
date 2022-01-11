@@ -11,23 +11,23 @@
 - 📫 How to reach me **rashmiswa09@gmail.com**
 - ⚡ Fun fact **I like watching movies.**
 
-<h3 align="center">Home Section</h3>
-![Image of Home Section](assets/image/s1.PNG)
+-Home Section
+    -![Image of Home Section](assets/image/s1.PNG)
 
-<h3 align="center">About Me</h3>
-![Home Section Img](assets/image/s2.PNG)
+-About
+    -![Home Section Img](assets/image/s2.PNG)
 
-<h3 align="center">Educations</h3>
-![Home Section Img](assets/image/s6.PNG)
+-Educations
+    -![Home Section Img](assets/image/s6.PNG)
 
-<h3 align="center">Skills & Experience</h3>
-![Home Section Img](assets/image/s3.PNG)
+-Skills & Experience
+    -![Home Section Img](assets/image/s3.PNG)
 
-<h3 align="center">Projects</h3>
-![Home Section Img](assets/image/s4.PNG)
+-Projects
+    -![Home Section Img](assets/image/s4.PNG)
 
-<h3 align="center">Contact</h3>
-![Home Section Img](assets/image/s5.PNG)
+-Contact
+    -![Home Section Img](assets/image/s5.PNG)
 
 
 ## :link: **Links**
