@@ -12,7 +12,7 @@
 - ⚡ Fun fact **I like watching movies.**
 
 <h3 align="center">Home Section</h3>
-![Home Section Img](assets/images/fb.JPG)
+![Image of Home Section](assets/image/s1.PNG)
 <h3 align="center">About Me</h3>
 ![Home Section Img](assets/image/s2.PNG)
 <h3 align="center">Educations</h3>
