@@ -18,6 +18,11 @@ header > nav {
     font-size: 30px;
     font-weight: 70;
     color: white;
+    text-decoration-line: none;
+}
+header>#abt{
+    color: white;
+    text-decoration-line: none;
 }
 
 header > nav > ul > li {
