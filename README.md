@@ -11,8 +11,8 @@
 - 📫 How to reach me **rashmiswa09@gmail.com**
 
 
-<h3 align="center">About Me</h3>
-![Image of Home Section](assets/image/s1.PNG)
+-<h3 align="center">Home</h3>
+-![Image of Home Section](assets/image/s1.PNG)
 
 -<h3 align="center">About Me</h3>
 -![Home Section Img](assets/image/s2.PNG)
