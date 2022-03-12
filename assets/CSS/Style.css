@@ -198,7 +198,7 @@ header > nav > ul > li:hover {
 
 
 #Education{
-    height: 180vh;
+    height: 110vh;
     position: relative;
     color: white;
     font-size: 24px;
@@ -295,7 +295,7 @@ header > nav > ul > li:hover {
     font-weight: normal;
     font-size: 39px;
     line-height: 50px;
-    color: #A8C4E6;
+    color: white;
 
 }
 #Education>#pe>h2{
@@ -367,7 +367,7 @@ header > nav > ul > li:hover {
     font-weight: normal;
     font-size: 39px;
     line-height: 50px;
-    color: #A8C4E6;
+    color: white;
 }
 #Education>#se>h2{
     position: absolute;
@@ -432,7 +432,7 @@ header > nav > ul > li:hover {
     font-weight: normal;
     font-size: 39px;
     line-height: 50px;
-    color: #A8C4E6;
+    color: white;
 }
 #Education>#he>h2{
     position: absolute;
@@ -488,7 +488,7 @@ header > nav > ul > li:hover {
     font-weight: normal;
     font-size: 39px;
     line-height: 50px;
-    color: #A8C4E6;
+    color: white;
 }
 #Education>#die>h2{
     position: absolute;
@@ -558,7 +558,7 @@ header > nav > ul > li:hover {
     font-weight: normal;
     font-size: 39px;
     line-height: 50px;
-    color: #A8C4E6;
+    color: white;
 }
 #Education>#software>h2{
     position: absolute;
@@ -582,6 +582,7 @@ header > nav > ul > li:hover {
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 100%;
+
 }
 #Education>#software>#inRound4{
     position: relative;
@@ -599,7 +600,7 @@ header > nav > ul > li:hover {
 /*-------------------------------------------*/
 
 #skill{
-    height: 100vh;
+    height: 70vh;
 }
 
 #skill>p>b{
@@ -627,7 +628,7 @@ header > nav > ul > li:hover {
 #skill>#ps>h1{
     color: white;
     position: absolute;
-    top: 3200px;
+    top: 3600px;
     right: 0;
     left: 0;
 }
@@ -736,7 +737,7 @@ header > nav > ul > li:hover {
     font-size: 42px;
     line-height: 49px;
     text-align: center;
-    color: #A4B0BE;
+    color: white;
 
 
 }
@@ -760,10 +761,203 @@ header > nav > ul > li:hover {
     height: 0px;
     left: 822px;
     top: 97px;
-    border: 2px solid #4BFFA5;
+    border: 2px solid #0BAFD2;
+
 }
 
+#experience{
+    height: 70vh;
 
+}
+#experience>div>h1{
+    position: relative;
+    width: 573px;
+    left: 656px;
+    top: 76px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 49px;
+    text-align: left;
+    color: white;
+}
+#experience>div>h1>span{
+    position: absolute;
+    width: 562px;
+    height: 94px;
+    left: 5px;
+    top: 49px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#experience>div>h2{
+    position: relative;
+    width: 270px;
+    height: 0px;
+    left: 796px;
+    top: 148px;
+    border: 2px solid #0BAFD2;
+}
+#experience>#yearXp{
+    position: relative;
+    width: 557px;
+    height: 301px;
+    left: 49px;
+    top: 235px;
+    border: 1px solid white;
+}
+#experience>#yearXp>h1 {
+    position: relative;
+    width: 123px;
+    height: 100px;
+    left: 1px;
+    top: -3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 85px;
+    line-height: 100px;
+    color: #0BAFD2;
+}
+#experience>#yearXp>h1>span{
+    position: absolute;
+    width: 53px;
+    height: 40px;
+    left: 116px;
+    top: -50px;
+    color: #0BAFD2;
+}
+#experience>#yearXp>h2 {
+    position: absolute;
+    width: 92px;
+    height: 0px;
+    left: 16px;
+    top: 126px;
+    border: 2px solid #0BAFD2;
+}
+#experience>#yearXp>h3{
+    position: relative;
+    width: 290px;
+    height: 162px;
+    left: 207px;
+    top: -111px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    font-size: 66px;
+    color: #FFFFFF;
+
+}
+#experience>#project{
+    position: relative;
+    width: 557px;
+    height: 301px;
+    left: 662px;
+    top: -68px;
+    border: 1px solid white;
+}
+
+#experience>#project>h1{
+    position: absolute;
+    width: 123px;
+    height: 100px;
+    left: 5px;
+    top: -2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 85px;
+    line-height: 100px;
+    color: #0BAFD2;
+}
+#experience>#project>h1>span{
+    position: absolute;
+    width: 53px;
+    height: 40px;
+    left: 116px;
+    top: -53px;
+    color: #0BAFD2;
+}
+#experience>#project>h2{
+    position: absolute;
+    width: 92px;
+    height: 0px;
+    left: 19px;
+    top: 126px;
+    border: 2px solid #0BAFD2;
+}
+#experience>#project>h3{
+    position: absolute;
+    width: 336px;
+    height: 162px;
+    left: 207px;
+    top: 53px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+#experience>#Assignment{
+    position: relative;
+    width: 557px;
+    height: 301px;
+    left: 1275px;
+    top: -371px;
+    border: 1px solid white;
+}
+#experience>#Assignment>h1 {
+    position: absolute;
+    width: 123px;
+    height: 94px;
+    left: 10px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 85px;
+    line-height: 100px;
+    color: #0BAFD2;
+}
+#experience>#Assignment>h1>span{
+    position: absolute;
+    width: 53px;
+    height: 40px;
+    left: 113px;
+    top: -53px;
+    color: #0BAFD2;
+}
+#experience>#Assignment>h2{
+    position: absolute;
+    width: 92px;
+    height: 0px;
+    left: 29px;
+    top: 126px;
+    border: 2px solid #0BAFD2;
+}
+#experience>#Assignment>h3{
+    position: absolute;
+    width: 336px;
+    height: 162px;
+    left: 194px;
+    top: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+
+}
 
 
 
