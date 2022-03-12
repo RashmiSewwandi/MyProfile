@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <style>
+        body>section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #sky {
+            z-index: 2;
+            position: absolute;
+            width: 100%;
+            height:80%;
+            background-image: url("Assets/images/sky.jpg");
+            background-size: auto;
+            top: 0;
+        }
+
+        #city {
+            z-index: 3;
+            background-image: url("Assets/images/city.png");
+            background-repeat: repeat-x;
+            position: absolute;
+            bottom: 20%;
+            width: 800vw;
+            height: 20%;
+            animation: trackAnimation 10s forwards infinite;
+        }
+
+        #road {
+            background-image: url("Assets/images/road.jpg");
+            background-repeat: repeat-x;
+            position: absolute;
+            bottom: 0;
+            width: 600vw;
+            height: 20%;
+            animation: trackAnimation 10s forwards infinite;
+        }
+        #carContainer{
+            position: fixed;
+            z-index: 4;
+            width: 300px;
+            height:200px;
+            bottom: 15%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #car {
+            z-index: 5;
+            position: absolute;
+            width: 90%;
+            height: 50%;
+
+            bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        .wheel {
+            z-index: 5;
+            position: absolute;
+            animation: wheelAnimation forwards 10s infinite;
+            background-image: url("Assets/images/wheel.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 50px;
+            height: 50px;
+        }
+
+        .wheel1 {
+            bottom: 50px;
+            left: 38px;
+        }
+
+        .wheel2 {
+            bottom: 50px;
+            left:203px;
+        }
+
+
+        @keyframes wheelAnimation {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(-1800deg);
+            }
+        }
+
+        @keyframes trackAnimation {
+            from {
+                transform: translate(0);
+            }
+
+            to {
+                transform: translate(-500vw);
+            }
+        }
+    </style>
+</head>
+
+<body>
+<section>
+    <div id="road"></div>
+    <div id="sky"></div>
+    <div id="city"></div>
+    <section id="carContainer">
+        <div><img id="car" src="assets/images/car.png" alt="car"></div>
+        <div class=" wheel wheel1"></div>
+        <div class="wheel wheel2"></div>
+    </section>
+
+</section>
+</body>
+
+</html>

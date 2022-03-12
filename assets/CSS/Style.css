@@ -36,6 +36,8 @@ header > nav > ul > li:hover {
     color: deepskyblue;
 }
 
+
+
 #first{
     color: white;
     position: relative;
@@ -97,7 +99,7 @@ header > nav > ul > li:hover {
 
 
 #about{
-    height: 90vh;
+    height: 110vh;
 }
 
 #about>div>img{
@@ -192,12 +194,29 @@ header > nav > ul > li:hover {
     bottom: 40px;
 }
 
-
+/*-----------------------------------------------------------*/
 
 
 #Education{
-    height: 90vh;
+    height: 180vh;
+    position: relative;
+    color: white;
+    font-size: 24px;
+    bottom: 0px;
+    top: 50px;
+
 }
+
+#Education>h1{
+    position: absolute;
+    width: 155px;
+    height: 0px;
+    border: 3px solid #0BAFD2;
+    left: 880px;
+    top: 60px;
+
+}
+
 
 #Education>p>b{
     position: absolute;
@@ -208,8 +227,540 @@ header > nav > ul > li:hover {
     font-weight: normal;
     font-size: 80px;
     line-height: 70px;
-
     color: deepskyblue;
+}
+
+/*
+#education{
+    height: 125vh;
+}
+*/
+
+
+/*#Education>h1{
+    position: relative;
+    width: 1925px;
+    height: 96px;
+    left: -2px;
+    top: 114px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #A4B0BE;
+}
+#Education>h2{
+    position: relative;
+    width: 6514px;
+    height: 94px;
+    left: -2297px;
+    top: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+}*/
+/*#Education>h3{
+    position: relative;
+    width: 270px;
+    height: 0px;
+    left: 820px;
+    top: -64px;
+    border: 2px solid #4BFFA5;
+}*/
+
+
+#Education>#pe{
+    position: relative;
+    width: 535px;
+    height: 134px;
+    left: 1289px;
+    top: 584px;
+    background: rgba(53, 59, 72, 0.85);
+    /*box-shadow: 10px 10px 20px rgb(75 255 165 / 50%);*/
+}
+#Education>#pe>h1  {
+    position: relative;
+    width: 533px;
+    height: 0px;
+    left: 2px;
+    top: 13px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 50px;
+    color: #A8C4E6;
+
+}
+#Education>#pe>h2{
+    position: absolute;
+    width: 422px;
+    height: 33px;
+    left: 4px;
+    top: -64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+#Education>#pe>#outRound{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -56px;
+    top: -73px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+
+#Education>#pe>#inRound{
+    position: relative;
+    width: 27px;
+    height: 26px;
+    left: -49px;
+    top: -127px;
+    background: #0BAFD2;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100%;
+}
+#Education>#pe>#inRound>h1{
+    position: relative;
+    width: 256.02px;
+    height: 0px;
+    left: -118px;
+    top: -149px;
+    border: 4px dashed #FFFFFF;
+    transform: rotate(
+            -90deg
+    );
+}
+
+#Education>#se{
+    position: relative;
+    width: 535px;
+    height: 134px;
+    left: 1280px;
+    top: 114px;
+    background: rgba(53, 59, 72, 0.85);
+   /* box-shadow: 10px 10px 20px rgb(75 255 165);*/
+
+
+}
+#Education>#se>h1{
+    position: relative;
+    width: 531px;
+    height: 0px;
+    left: 2px;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 50px;
+    color: #A8C4E6;
+}
+#Education>#se>h2{
+    position: absolute;
+    width: 432px;
+    height: 33px;
+    left: 4px;
+    top: -62px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+#Education>#se>#outRound1{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -48px;
+    top: -73px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+#Education>#se>#inRound1{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: -40px;
+    top: -127px;
+    background: #0BAFD2;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100%;
+}
+#Education>#se>#inRound1>h1{
+    position: relative;
+    width: 256.02px;
+    height: 0px;
+    left: -118px;
+    top: -147px;
+    border: 4px dashed #FFFFFF;
+    transform: rotate(-90deg);
+}
+#Education>#he{
+    position: relative;
+    width: 535px;
+    height: 134px;
+    left: 1272px;
+    top: -348px;
+    background: rgba(53, 59, 72, 0.85);
+   /* box-shadow: 10px 10px 20px rgb(75 255 165 / 50%);*/
+
+}
+#Education>#he>h1{
+    position: relative;
+    width: 533px;
+    height: 0px;
+    left: 2px;
+    top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 50px;
+    color: #A8C4E6;
+}
+#Education>#he>h2{
+    position: absolute;
+    width: 422px;
+    height: 33px;
+    left: 7px;
+    top: -75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+#Education>#he>#outRound2{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -42px;
+    top: -81px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+
+}
+#Education>#he>#inRound2{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: -35px;
+    top: -135px;
+    background: #0BAFD2;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100%;
+}
+#Education>#die{
+    position: relative;
+    width: 535px;
+    height: 134px;
+    left: 119px;
+    top: 78px;
+    background: rgba(53, 59, 72, 0.85);
+  /*  box-shadow: 10px 10px 20px rgb(75 255 165 / 50%);*/
+}
+#Education>#die>h1{
+    position: relative;
+    width: 533px;
+    height: 0px;
+    left: 7px;
+    top: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 50px;
+    color: #A8C4E6;
+}
+#Education>#die>h2{
+    position: absolute;
+    width: 567px;
+    height: 33px;
+    left: 4px;
+    top: -74px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+#Education>#die>#outRound3{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -43px;
+    top: -76px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+
+}
+#Education>#die>#inRound3{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: -36px;
+    top: -130px;
+    background: #0BAFD2;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100%;
+
+}
+#Education>#die>#inRound3>h1{
+    position: relative;
+    width: 256.02px;
+    height: 0px;
+    left: -118px;
+    top: -145px;
+    border: 4px dashed #FFFFFF;
+    transform: rotate(
+            -90deg
+    );
+
+}
+#Education>#software{
+    position: relative;
+    width: 535px;
+    height: 134px;
+    left: 119px;
+    top: -400px;
+    background: rgba(53, 59, 72, 0.85);
+    /*box-shadow: 10px 10px 20px rgb(75 255 165 / 50%);*/
+    box-shadow: 10px 10px 20px rgb(75 255 165);
+}
+#Education>#software>h1{
+    position: relative;
+    width: 533px;
+    height: 0px;
+    left: 10px;
+    top: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 50px;
+    color: #A8C4E6;
+}
+#Education>#software>h2{
+    position: absolute;
+    width: 633px;
+    height: 33px;
+    left: 2px;
+    top: -70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+#Education>#software>#outRound4{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -46px;
+    top: -68px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+#Education>#software>#inRound4{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: -39px;
+    top: -122px;
+    background: #0BAFD2;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100%;
+}
+
+
+
+/*-------------------------------------------*/
+
+#skill{
+    height: 100vh;
+}
+
+#skill>p>b{
+    position: absolute;
+    width: 142px;
+    height: 82px;
+    margin-left: 880px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 70px;
+    top: 3000px;
+    color: deepskyblue;
+
+}
+
+#skill>h1{
+    position: absolute;
+    width: 165px;
+    height: 0px;
+    border: 3px solid #0BAFD2;
+    left: 880px;
+    top: 3080px;
+}
+#skill>#ps>h1{
+    color: white;
+    position: absolute;
+    top: 3200px;
+    right: 0;
+    left: 0;
+}
+#slider {
+    height: 342px;
+    width: 1776px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 100px;
+
+}
+
+#slid-con-div {
+    width: 2500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    flex-basis: 3107px;
+    margin-left: 1828px;
+    animation: scroll 10s linear alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    cursor: pointer;
+}
+
+@keyframes scroll {
+    from {
+        margin-left: 1828px;
+    }
+    to {
+        margin-left: -1821px;
+    }
+}
+
+.slid-div {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background: #212428;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.img-div {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 15px solid antiquewhite;
+}
+
+#img_1 {
+    background-image: url("../logo/java.png");
+}
+
+#img_2 {
+    background-image: url("../logo/html.png");
+}
+
+#img_3 {
+    background-image: url("../logo/css.png");
+}
+
+#img_4 {
+    background-image: url("../logo/mysql.png");
+}
+
+#img_5 {
+    background-image: url("../logo/figma.png");
+}
+
+#img_6 {
+    background-image: url("../logo/python.png");
+}
+
+#img_7 {
+    background-image: url("../logo/ps.png");
+}
+
+#skill>div>h1{
+    position: absolute;
+    width: 1912px;
+    height: 54px;
+    left: 22px;
+    top: 1940px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #A4B0BE;
+
+
+}
+#skill>div>h2{
+    position: absolute;
+    width: 1920px;
+    height: 94px;
+    left: 15px;
+    top: 1952px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#skill>div>h2>span{
+    position: absolute;
+    width: 270px;
+    height: 0px;
+    left: 822px;
+    top: 97px;
+    border: 2px solid #4BFFA5;
 }
 
 
