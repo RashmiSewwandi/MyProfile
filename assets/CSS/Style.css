@@ -6,13 +6,14 @@
    /* width: 864px;*/
     height: 90vh;
 }
-body > header {
+/*body > header {
     height: 100px;
     position: relative;
     z-index: 1;
     display: flex;
     justify-content: right;
     right: 85px;
+    color: white;
 }
 header > nav {
     font-size: 30px;
@@ -30,12 +31,43 @@ header > nav > ul > li {
     margin-left: 35px;
     margin-right: 20px;
     cursor: pointer;
+    color: white;
+    text-decoration-line: none;
 }
 
 header > nav > ul > li:hover {
-    color: deepskyblue;
+    color: white;
+}*/
+body > header {
+    position: relative;
+    height: 100px;
+    box-shadow: 5px 6px 10px 1px rgba(0, 0, 0, 0.062);
+    z-index: 1;
+    display: flex;
+    justify-content: right;
+    right: 85px;
+
+}
+header > nav {
+    font-size: 30px;
+    font-weight: 70;
+    color: white;
 }
 
+header > nav > ul > li {
+    display: inline;
+    margin-left: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+header > nav > ul > li> b >a{
+    color: white;
+    text-decoration: none;
+}
+
+header > nav > ul > li> b >a:hover {
+    color: deepskyblue;
+}
 
 
 #first{
